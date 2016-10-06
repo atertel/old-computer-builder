@@ -12,6 +12,15 @@ body {
     height: 100%;
 }
 
+.section-title {
+    font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 50px;
+    margin-bottom: 25px;
+}
+
 body {
     font-family: "Source Sans Pro","Helvetica Neue",Helvetica,Arial,sans-serif;
 }
@@ -160,6 +169,18 @@ hr.small {
     width: 100%;
     height: 100%;
     background: url(../img/bg.jpg) no-repeat center center scroll;
+    -webkit-background-size: cover/16;
+    -moz-background-size: cover/16;
+    background-size: cover/16;
+    -o-background-size: cover/16;
+}
+
+.motherboard {
+    display: table;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background: url(../img/motherboard.png) no-repeat left center scroll;
     -webkit-background-size: cover/16;
     -moz-background-size: cover/16;
     background-size: cover/16;

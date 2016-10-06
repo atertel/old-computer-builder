@@ -42,37 +42,37 @@
         <ul class="sidebar-nav">
             <a id="menu-close" href="#" class="btn btn-light btn-lg pull-right toggle"><i class="fa fa-times"></i></a>
             <li class="sidebar-brand">
-                <a href="#top" onclick=$("#menu-close").click();>Steps</a>
+                <a href="#top" onclick=$("#menu-close").click();>Build Stages</a>
             </li>
             <li>
-                <a href="#motherboard" onclick=$("#menu-close").click();>Motherboard</a>
+                <a href="#motherboard" onclick=$("#menu-close").click();>Step 1: Motherboard</a>
             </li>
             <li>
-                <a href="#about" onclick=$("#menu-close").click();>CPU</a>
+                <a href="#about" onclick=$("#menu-close").click();>Step 2: CPU</a>
             </li>
             <li>
-                <a href="#services" onclick=$("#menu-close").click();>CPU Cooler</a>
+                <a href="#services" onclick=$("#menu-close").click();>Step 3: CPU Cooler</a>
             </li>
             <li>
-                <a href="#portfolio" onclick=$("#menu-close").click();>RAM</a>
+                <a href="#portfolio" onclick=$("#menu-close").click();>Step 4: RAM</a>
             </li>
             <li>
-                <a href="#contact" onclick=$("#menu-close").click();>Case</a>
+                <a href="#contact" onclick=$("#menu-close").click();> Step 5: Case</a>
             </li>
             <li>
-                <a href="#contact" onclick=$("#menu-close").click();>Storage</a>
+                <a href="#contact" onclick=$("#menu-close").click();>Step 6: Storage</a>
             </li>
             <li>
-                <a href="#contact" onclick=$("#menu-close").click();>Power Supply</a>
+                <a href="#contact" onclick=$("#menu-close").click();>Step 7: Power Supply</a>
             </li>
             <li>
-                <a href="#contact" onclick=$("#menu-close").click();>Cables</a>
+                <a href="#contact" onclick=$("#menu-close").click();>Step 8: Cables</a>
             </li>
             <li>
-                <a href="#contact" onclick=$("#menu-close").click();>GPU</a>
+                <a href="#contact" onclick=$("#menu-close").click();>Step 9: GPU</a>
             </li>
             <li>
-                <a href="#contact" onclick=$("#menu-close").click();>Boot</a>
+                <a href="#contact" onclick=$("#menu-close").click();>Step 10: Boot</a>
             </li>
         </ul>
     </nav>
@@ -86,27 +86,29 @@
             <a href="#motherboard" class="btn btn-dark btn-lg">Get Started</a>
         </div>
     </header>
+    <br><br><br><br>
 
     <!-- Motherboard -->
-    <section id="motherboard" class="header">
+    <section id="motherboard" class="motherboard">
         <div class="container">
             <div class="row">
-                <canvas id="moboCanvas" width=1500 height=1500></canvas>
-                <script>
-                    var canvas = document.getElementById("moboCanvas");
-                    var context = canvas.getContext('2d');
-                    var img = new Image();
+                <div class="col-lg-6">
+                    <!-- space for image -->
+                </div>
+                <div class="col-lg-2">
 
-                    img.onload = function() {
-                        context.drawImage(img, 0, 0);
-                    };
-                    img.src = "img/motherboard.jpg";
-                </script>
+                </div>
+                <div class="col-lg-4">
+                    <br><br>
+                    <h1 class="section-title">Motherboard</h1>
+                </div>
+
             </div>
             <!-- /.row -->
         </div>
         <!-- /.container -->
     </section>
+    <br><br><br><br>
 
     <!-- Services -->
     <!-- The circle icons use Font Awesome's stacked icon classes. For more information, visit http://fontawesome.io/examples/ -->
